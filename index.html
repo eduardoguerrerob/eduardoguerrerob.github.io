@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header--logo" src="./img/logo.svg" alt="Logo">
+        <div class="hamburger">
+            <input type="checkbox">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav>
+                <ul>
+                    <li><a href="#idEpisodes">EPISODIOS</a></li>
+                    <li><a href="#idNosotros">NOSOTROS</a></li>
+                    <li><a href="#idGuests">ENTREVISTAS</a></li>
+                    <li><a href="#idThemes">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu">
+            <nav class="menu--navbar">
+                <ul class="menu--navbar-ul">
+                    <li><a href="#idEpisodes" class="menu--navbar-a">EPISODIOS</a></li>
+                    <li><a href="#idNosotros" class="menu--navbar-a">NOSOTROS</a></li>
+                    <li><a href="#idGuests" class="menu--navbar-a">ENTREVISTAS</a></li>
+                    <li><a href="#idThemes" class="menu--navbar-a">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hellobox">
+            <span class="hellobox--hello">Hello</span>
+            <span class="hellobox--world">world</span>
+            <p class="hellobox--pale-mob">pale blue dot.</p>
+            <span class="hellobox--pale-desk">pale blue dot.</span>
+        </div>
+        <div class="textpodcast">
+            <p class="textpodcast--mob">
+                Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
+            </p>
+            <p class="textpodcast--desk">
+                El portal de podcasts que explora el mundo de la programación y
+            </p>
+            <p class="textpodcast--desk">
+                la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+            </p>
+        </div>
+        <div class="conocebox">
+            <p class="conocebox--text">CONOCÉ MÁS</p>
+        </div>
+
+        <section id="idEpisodes" class="episodes">
+            <p class="episodes--text">Episodios</p>
+
+            <div class="episodes--set">
+                <iframe class="episodes--set-episode episodes--set-one"
+                    src="https://open.spotify.com/embed/episode/6eCHJ8yOYtksW8OT93Dbdu?si=SwPoo9ZrSVGWmy7eVIS1CA"
+                    width="298" height="225" frameborder="0" allowtransparency="true" allow="encrypted-media">
+                </iframe>
+                <iframe class="episodes--set-episode episodes--set-two"
+                    src="https://open.spotify.com/embed/show/4kYCRYJ3yK5DQbP5tbfZby" width="298" height="225"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media">
+                </iframe>
+                <iframe class="episodes--set-episode episodes--set-three"
+                    src="https://open.spotify.com/embed/episode/1SJtXmuDA3xsPidBSASWm9" width="298" height="225"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media">
+                </iframe>
+
+                <iframe class="episodes--set-episode episodes--set-four"
+                    src="https://open.spotify.com/embed/show/2Iibd5A6R7mxkCm4NwNmUn" width="298" height="225"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media">
+                </iframe>
+            </div>
+
+        </section>
+        <section id="idNosotros" class="nosotros">
+            <div class="nosotros--phone">
+                <img class="nosotros--phone--img" src="./img/phone.png" alt="Imagen de Smartphone">
+            </div>
+            <div class="nosotros--dedonde">
+                <p class="nosotros--dedonde-title">De dónde venimos</p>
+                <p class="nosotros--dedonde-text">Our posturings, our imagined self-importance, the delusion that we
+                    have some
+                    privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p class="nosotros--dedonde-text">
+                    Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                    vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+        <section id="idGuests" class="guests">
+            <p class="guests--title">Invitadas/os estelares</p>
+            <div class="guests--set">
+                <img class="guests--set-pic guests--set-one" src="./img/grace-hopper.png" alt="Grace Hopper">
+                <img class="guests--set-pic guests--set-two" src="./img/Katie-Bouman.png" alt="Katie Bouman">
+                <img class="guests--set-pic guests--set-three" src="./img/Margaret_Hamilton.png"
+                    alt="Margaret Hamilton">
+                <img class="guests--set-pic guests--set-four" src="./img/An E.R.A.Univac 1103 computer in the 1950s.png"
+                    alt="Inivac">
+                <img class="guests--set-pic guests--set-five"
+                    src="./img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                    alt="Computer Operators">
+                <img class="guests--set-pic guests--set-six" src="./img/susan-kare.png" alt="Susan Kare">
+            </div>
+        </section>
+        <section id="idThemes" class="somethemes">
+            <p class="somethemes--title">Algunos de nuestros temas</p>
+            <div class="somethemes--boxes">
+                <div class="somethemes--boxes-box">
+                    <img class="somethemes--boxes-box-img" src="./img/icon1.svg" alt="Trabajo remoto">
+                    <p class="somethemes--boxes-box-subtitle">Trabajo remoto</p>
+                </div>
+                <div class="somethemes--boxes-box">
+                    <img class="somethemes--boxes-box-img" src="./img/icon2.svg" alt="Repensando la programación">
+                    <p class="somethemes--boxes-box-subtitle">Repensando la programación</p>
+                </div>
+                <div class="somethemes--boxes-box">
+                    <img class="somethemes--boxes-box-img" src="./img/icon3.svg" alt="Bases del código">
+                    <p class="somethemes--boxes-box-subtitle">Bases del código</p>
+                </div>
+                <div class="somethemes--boxes-box">
+                    <img class="somethemes--boxes-box-img" src="./img/icon4.svg" alt="Seguridad informática">
+                    <p class="somethemes--boxes-box-subtitle">Seguridad informática</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="lastnews">
+            <p class="lastnews--title">¿Querés las últimas novedades?</p>
+            <div class="lastnews--box">
+                <p class="lastnews--box-text">ESCUCHÁ LOS EPISODIOS</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rights">
+            <p class="rights--text">© 2019— Hello blue pale dot</p>
+        </div>
+        <div class="social">
+            <div class="social--icons">
+                <i class="fab fa-spotify"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-telegram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
