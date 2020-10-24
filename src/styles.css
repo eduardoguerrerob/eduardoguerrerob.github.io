@@ -181,9 +181,10 @@ html {
             justify-content: start;
   }
   .episodes--set-episode {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    width: 80%;
     border: 0;
   }
   .nosotros--phone--img {
